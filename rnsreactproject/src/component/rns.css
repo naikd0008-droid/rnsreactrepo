@@ -5,11 +5,18 @@
 }
 .main{
     max-width: 100%;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
 }
 .top{
+    flex: 1;
+    display: flex;
+}
+.topleft{
+    flex: 1;
+}
+.topright{
     flex: 1;
 }
 .middle{
@@ -19,10 +26,25 @@
 }
 .t1{
     flex: 1;
+    font-size: 30px;
 }
 .t2{
     flex: 1;
+    display:flex ;
 }
+.tt1{
+    flex: 1;
+}
+.tt2{
+    flex: 1;
+}
+.tt3{
+    flex: 1;
+}
+.tt4{
+    flex: 1;
+}
+
 .bottom{
     flex: 4;
     display: flex;
@@ -30,10 +52,96 @@
 }    
 .b1{
     flex: 1;
-}    
+    display: flex;
+} 
+.bb1{
+    flex: 1;
+}
+.bb2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+} 
+.a1{
+    flex: 1;
+}  
+.a2{
+    flex: 1;
+}
+.a3{
+    flex: 1;
+}
+.a4{
+    flex: 1;
+}
+.bb3{
+    flex: 1;
+}
 .b2{
+    flex: 1;
+    display: flex;
+}
+.bbb1{
+    flex: 1;
+}
+.bbb2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.c1{
+    flex: 1;
+}
+.c2{
+    flex: 1;
+}
+.c3{
+    flex: 1;
+}
+.c4{
+    flex: 1;
+}
+.bbb3{
     flex: 1;
 }
 .b3{
     flex: 1;
+    display: flex;
+}
+.bbbb1{
+    flex: 1;
+}
+.bbbb2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.d1{
+    flex: 1;
+}
+.d2{
+    flex: 1;
+}
+.d3{
+    flex: 1;
+}
+.d4{
+    flex: 1;
+}
+.bbbb3{
+    flex: 1;
+    display: flex;
+    align-items: last baseline;
+    justify-content: end;
+    gap: 10px;
+}
+.but1{
+    height: 20px;
+    width: 60px;
+}
+.but2{
+    height: 20px;
+    width: 60px;
 }
