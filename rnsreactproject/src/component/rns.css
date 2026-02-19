@@ -1,13 +1,21 @@
 *{
     div{
-         border: 2px solid red;
+         border: 0.2px solid red;
     }
 }
 .main{
     max-width: 100%;
-    height: 70vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
+}
+.main1{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+        margin-right: 100px;
 }
 .top{
     flex: 1;
@@ -56,14 +64,18 @@
 } 
 .bb1{
     flex: 1;
+    margin: 5px;
+    
 }
 .bb2{
-    flex: 1;
+    flex: 3;
     display: flex;
     flex-direction: column;
+    font-size: 10px;
 } 
 .a1{
     flex: 1;
+    font-size: 20px;
 }  
 .a2{
     flex: 1;
@@ -73,6 +85,7 @@
 }
 .a4{
     flex: 1;
+    font-size: 15px;
 }
 .bb3{
     flex: 1;
@@ -85,21 +98,25 @@
     flex: 1;
 }
 .bbb2{
-    flex: 1;
+    flex: 3;
     display: flex;
     flex-direction: column;
+    font-size: 10px;
 }
 .c1{
     flex: 1;
+    font-size: 20px;
 }
 .c2{
     flex: 1;
+
 }
 .c3{
     flex: 1;
 }
 .c4{
     flex: 1;
+    font-size: 15px;
 }
 .bbb3{
     flex: 1;
@@ -112,14 +129,15 @@
     flex: 1;
 }
 .bbbb2{
-    flex: 1;
+    flex: 3;
     display: flex;
     flex-direction: column;
-
+    font-size: 10px;
 
 }
 .d1{
     flex: 1;
+    font-size: 20px;
 }
 .d2{
     flex: 1;
@@ -129,6 +147,7 @@
 }
 .d4{
     flex: 1;
+    font-size: 15px;
 }
 .bbbb3{
     flex: 1;
@@ -139,9 +158,23 @@
 }
 .but1{
     height: 20px;
-    width: 60px;
+    width: 45px;
 }
 .but2{
     height: 20px;
-    width: 60px;
+    width: 45px;
+}
+.rajesh{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.meerap{
+    height: 100%;
+    width: 100%;
+}
+.tanvi{
+    height: 100%;
+    width: 100%;
+    
 }
