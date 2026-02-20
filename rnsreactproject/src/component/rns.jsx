@@ -19,10 +19,13 @@ function Rns() {
               My Orders
             </div>
             <div className='t2'>
-              <div className='tt1'></div>
+              <div className='tt1'>
+                <button className='butt1'></button>
+                <button className='butt2'></button>
+                <button className='butt3'></button>
+                <button className='butt4'></button>
+              </div>
               <div className='tt2'></div>
-              <div className='tt3'></div>
-              <div className='tt4'></div>
             </div>
         </div>
         <div className='bottom'>
