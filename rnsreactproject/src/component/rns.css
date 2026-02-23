@@ -1,41 +1,36 @@
 *{
     div{
-         border: 0.2px solid red;
+        border: 0.2px solid black; 
+        font-family: sans-serif;
     }
 }
 .main{
     max-width: 100%;
-    height: 90vh;
+    height:90vh;
     display: flex;
     flex-direction: column;
 }
 .main1{
     max-width: 100%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
-        margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(172, 172, 172);
+
 }
 .top{
     flex: 1;
     display: flex;
-    gap: 350px;
-}
-.topleft{
-    flex: 1;
-}
-.topright{
-    flex: 1;
-}
-.middle{
-    flex: 1;
-    display: flex;
     flex-direction: column;
+    border: none;
 }
 .t1{
     flex: 1;
     font-size: 30px;
+    padding-top: 30PX;
+
 }
 .t2{
     flex: 1;
@@ -43,49 +38,61 @@
     flex-direction: row;
 }
 .tt1{
-    flex: 1;
-    gap: 10px;
+    flex: 4;
     display: flex;
-}
-.tt2{
-    flex: 1;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+
 }
 .butt1{
     height: 20px;
-    width: 45px;
+    width: 50px;
 }
 .butt2{
     height: 20px;
-    width: 45px;
+    width: 90px;
 }
 .butt3{
     height: 20px;
-    width: 45px;
+    width: 110px;
 }
 .butt4{
     height: 20px;
-    width: 45px;
+    width: 100px;
 }
-.bottom{
+
+.tt2{
     flex: 1;
     display: flex;
+    gap: 20px;
+}
+.bottom{
+    flex: 3;
+    display: flex;
     flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    
 }    
 .b1{
     flex: 1;
     display: flex;
+    border: none;
+    cursor: pointer;
+    
 } 
 .bb1{
     flex: 1;
-    margin: 10px;
     border: none;
     
 }
 .bb2{
-    flex: 3;
+    flex: 7;
     display: flex;
     flex-direction: column;
     font-size: 10px;
+    text-align: left;
 } 
 .a1{
     flex: 1;
@@ -100,21 +107,26 @@
 .a4{
     flex: 1;
     font-size: 15px;
+    color: blue;
 }
 .bb3{
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
 }
 .b2{
     flex: 1;
     display: flex;
+    cursor: pointer;
 }
 .bbb1{
     flex: 1;
-    margin: 10px;
     border: none;
 }
 .bbb2{
-    flex: 3;
+    flex: 7;
     display: flex;
     flex-direction: column;
     font-size: 10px;
@@ -133,21 +145,26 @@
 .c4{
     flex: 1;
     font-size: 15px;
+    color: blue;
 }
 .bbb3{
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
 }
 .b3{
     flex: 1;
     display: flex;
+    cursor: pointer;
 }
 .bbbb1{
     flex: 1;
-    margin: 10px;
     border: none;
 }
 .bbbb2{
-    flex: 3;
+    flex: 7;
     display: flex;
     flex-direction: column;
     font-size: 10px;
@@ -166,35 +183,67 @@
 .d4{
     flex: 1;
     font-size: 15px;
+    color: rgb(7, 71, 173);
 }
 .bbbb3{
     flex: 1;
     display: flex;
-    align-items: last baseline;
+    flex-direction: column;
     justify-content: end;
-    gap: 5px;
+    
 }
-.but1{
+.button1{
+    width: 100px; 
     height: 20px;
-    width: 45px;
+    background-color: rgba(248, 213, 14, 0.505);
 }
-.but2{
+.button2{
     height: 20px;
-    width: 45px;
+    width: 101px;
+    background-color: cornflowerblue;
+}
+.darshh{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.darshh1{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+}
+.button3{
+    height: 20px;
+    width: 70px;
+    background-color: black;
+    color: white;
+
+}
+.button4{
+    height: 20px;
+    width: 100px;
+}
+.button5{
+    height: 20px;
+    background-color: mediumaquamarine;
+    color: green;
 }
 .rajesh{
-    height: 50%;
-    width: 50%;
-    border-radius: 20px;
+    height: 60%;
+    width: 70%;
+    border-radius: 10px;
 }
 .meerap{
-    height: 50%;
-    width: 50%;
-    border-radius: 20px;
+    height: 65%;
+    width: 70%;
+    border-radius: 10px;
 }
 .tanvi{
-    height: 70%;
-    width: 50%;
-    border-radius: 20px;
+    height: 65%;
+    width: 75%;
+    border-radius: 10px;
     
 }
