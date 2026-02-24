@@ -1,23 +1,15 @@
 *{
     div{
-        border: 0.2px solid black; 
+        border: 0.2px solid black;  
         font-family: sans-serif;
     }
 }
 .main{
     max-width: 100%;
-    height:90vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
-}
-.main1{
-    max-width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    margin-left: 150px;
-    margin-right: 150px;
-    background-color: rgb(172, 172, 172);
+    background-color:whitesmoke;
 
 }
 .top{
@@ -25,11 +17,14 @@
     display: flex;
     flex-direction: column;
     border: none;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .t1{
     flex: 1;
     font-size: 30px;
-    padding-top: 30PX;
+    padding-top: 40PX;
+    padding-left: 10px;
 
 }
 .t2{
@@ -42,49 +37,80 @@
     display: flex;
     margin-top: 10px;
     margin-left: 10px;
-    border: none;
-
 }
 .butt1{
-    height: 20px;
+    height: 30px;
     width: 50px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
 }
 .butt2{
-    height: 20px;
+    height: 30px;
     width: 90px;
+    outline: none;
+    border: none;
 }
 .butt3{
-    height: 20px;
+    height: 30px;
     width: 110px;
+    outline: none;
+    border: none;
 }
 .butt4{
-    height: 20px;
+    height: 30px;
     width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
 }
-
-.tt2{
-    flex: 1;
-    display: flex;
-    gap: 20px;
+.butt1:hover{
+    box-shadow:50px;
+    background-color: red;
+}
+.butt2:hover{
+    box-shadow:50px;
+    background-color: red;
+}
+.butt3:hover{
+    box-shadow:50px;
+    background-color: red;
+}
+.butt4:hover{
+    box-shadow:50px;
+    background-color: red;
 }
 .bottom{
     flex: 3;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+     padding: 10px;
     gap: 20px;
-    
+    margin-left: 100px;
+    margin-right: 100px;
 }    
 .b1{
     flex: 1;
     display: flex;
     border: none;
     cursor: pointer;
-    
+    background-color: white;
+    border-radius: 10px;
 } 
+.b1:hover{
+    box-shadow:50px;
+    transition: 0.5s ease;
+    transform: scale(1.01);
+    box-shadow: black;
+    box-shadow: 2px 2px  rgb(40, 38, 38);
+
+}
 .bb1{
     flex: 1;
     border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     
 }
 .bb2{
@@ -93,6 +119,7 @@
     flex-direction: column;
     font-size: 10px;
     text-align: left;
+    
 } 
 .a1{
     flex: 1;
@@ -112,18 +139,32 @@
 .bb3{
     flex: 1;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: end;
+    padding-right: 20px;
+    padding-top: 10px;
     
 }
 .b2{
     flex: 1;
     display: flex;
     cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+}
+.b2:hover{
+    box-shadow:50px;
+    transition: 0.5s ease;
+    transform: scale(1.01);
+    box-shadow: black;
+    box-shadow: 2px 2px rgb(40, 38, 38);
 }
 .bbb1{
     flex: 1;
     border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .bbb2{
     flex: 7;
@@ -150,18 +191,32 @@
 .bbb3{
     flex: 1;
     display: flex;
-    align-items: center;
+    align-items:top;
     justify-content: end;
+    padding-right: 20px;
+    padding-top: 10px;
     
 }
 .b3{
     flex: 1;
     display: flex;
     cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+}
+.b3:hover{
+    box-shadow:50px;
+    transition: 0.5s ease;
+    transform: scale(1.01);
+    box-shadow: rgb(190, 186, 186);
+    box-shadow:2px 2px  rgb(40, 38, 38);
 }
 .bbbb1{
     flex: 1;
     border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .bbbb2{
     flex: 7;
@@ -189,7 +244,10 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: top;
+    align-items: end;
+    padding-right: 20px;
+    padding-top: 10px;
     
 }
 .button1{
@@ -205,15 +263,15 @@
 .darshh{
     flex: 1;
     display: flex;
-    justify-content: end;
-    align-items: center;
+    justify-content: center;
+    align-items:center;
 }
 .darshh1{
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: end;
-    gap: 15px;
+    justify-content: center;
+    gap: 5px;
 }
 .button3{
     height: 20px;
@@ -241,9 +299,9 @@
     width: 70%;
     border-radius: 10px;
 }
-.tanvi{
+.tanvi
+{
     height: 65%;
     width: 75%;
     border-radius: 10px;
-    
 }

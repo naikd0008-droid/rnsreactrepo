@@ -15,9 +15,7 @@ function Rns() {
   return (
     <>
     <div className='main'>
-      <div className='main1'>
-
-        <div className='top'>
+      <div className='top'>
             <div className='t1'>
               <b>My Orders</b>
             </div>
@@ -81,7 +79,6 @@ function Rns() {
                 </div>
               </div>
             </div>
-        </div>
         </div>
   
     
