@@ -1,6 +1,6 @@
 *{
     div{
-       border: 0.2px solid black;  
+        /border: 0.2px solid black;  
         font-family: sans-serif;
     }
 }
@@ -33,11 +33,12 @@
     flex-direction: row;
 }
 .drn1{
-    
     display: flex;
-    height: 30px;
+    height: 35px;
     width: auto;
-    border-radius: 10px
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: whitesmoke;
 }
 .tt1{
     flex: 4;
@@ -51,6 +52,7 @@
     outline: none;
     border: none;
     border-radius: 10px;
+    background-color: whitesmoke;
 }
 .butt2{
     height: 30px;
@@ -58,6 +60,7 @@
     outline: none;
     border: none;
     border-radius: 10px;
+    background-color: whitesmoke;
 }
 .butt3{
     height: 30px;
@@ -65,6 +68,7 @@
     outline: none;
     border: none;
     border-radius: 10px ;
+    background-color: whitesmoke;
 }
 .butt4{
     height: 30px;
@@ -72,6 +76,7 @@
     outline: none;
     border: none;
     border-radius: 10px;
+    background-color: whitesmoke;
 }
 .butt1:hover{
     box-shadow:50px;
@@ -330,7 +335,7 @@
 .button5{
     height: 20px;
     background-color: mediumaquamarine;
-    color: green;
+    color: rgb(8, 8, 8);
     border-radius: 9px;
     border: none;
 }

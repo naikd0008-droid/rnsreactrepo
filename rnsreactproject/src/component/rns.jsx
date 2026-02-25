@@ -23,7 +23,6 @@ function Rns() {
                 <button className='butt3'>In Progress (1)</button>
                 <button className='butt4'>Completed (1)</button>
               </div></div>
-              <div className='tt2'></div>
             </div>
         </div>
         <div className='bottom'>
